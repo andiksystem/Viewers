@@ -35,7 +35,7 @@ window.config = {
     {
       // ~ REQUIRED
       // Authorization Server URL
-      authority: 'https://192.168.1.3/auth/realms/dcm4che',
+      authority: 'https://192.168.1.3:8843/realms/dcm4che',
       client_id: 'ohif-viewer',
       redirect_uri: 'http://192.168.1.3:3000/callback', // `OHIFStandaloneViewer.js`
       response_type: 'code', // "Authorization Code Flow"
