@@ -19,9 +19,9 @@ window.config = {
     dicomWeb: [
       {
         name: 'DCM4CHEE',
-        wadoUriRoot: 'http://192.168.1.3:8080/dcm4chee-arc/aets/DCM4CHEE/wado',
-        qidoRoot: 'http://192.168.1.3:8080/dcm4chee-arc/aets/DCM4CHEE/rs',
-        wadoRoot: 'http://192.168.1.3:8080/dcm4chee-arc/aets/DCM4CHEE/rs',
+        wadoUriRoot: 'http://192.168.1.8:8080/dcm4chee-arc/aets/DCM4CHEE/wado',
+        qidoRoot: 'http://192.168.1.8:8080/dcm4chee-arc/aets/DCM4CHEE/rs',
+        wadoRoot: 'http://192.168.1.8:8080/dcm4chee-arc/aets/DCM4CHEE/rs',
         qidoSupportsIncludeField: false,
         imageRendering: 'wadors',
         thumbnailRendering: 'wadors',
@@ -35,9 +35,9 @@ window.config = {
     {
       // ~ REQUIRED
       // Authorization Server URL
-      authority: 'https://192.168.1.3:8843/realms/dcm4che',
+      authority: 'https://192.168.1.8:8843/realms/dcm4che',
       client_id: 'ohif-viewer',
-      redirect_uri: 'http://192.168.1.3:3000/callback', // `OHIFStandaloneViewer.js`
+      redirect_uri: 'http://192.168.1.8:3000/callback', // `OHIFStandaloneViewer.js`
       response_type: 'code', // "Authorization Code Flow"
       scope: 'openid', // email profile openid
       // ~ OPTIONAL
